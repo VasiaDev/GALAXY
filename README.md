@@ -4,6 +4,8 @@
 
 * Laravel 12 – core framework
 * Inertia.js (React adapter) – frontend via React
+* Meilisearch
+* Redis
 
 ### Frontend (React + Inertia.js)
  
@@ -13,4 +15,7 @@
 
 ### Infrastructure
 
+* PostgreSQL – database
+* Redis – cache, sessions, queues
+* Docker (Sail) – local development
 * CI/CD (GitHub Actions): tests
