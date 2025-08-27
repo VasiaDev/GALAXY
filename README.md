@@ -19,3 +19,4 @@
 * Redis – cache, sessions, queues
 * Docker (Sail) – local development
 * CI/CD (GitHub Actions): tests
+* Nginx + PHP 8.3 (FPM)

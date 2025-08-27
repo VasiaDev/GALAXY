@@ -22,4 +22,11 @@ export default defineConfig({
             'ziggy-js': resolve(__dirname, 'vendor/tightenco/ziggy'),
         },
     },
+    server: {
+        host: '0.0.0.0',
+        hmr: {
+            host: 'host.docker.internal',
+            port: 5173,
+        },
+    },
 });
